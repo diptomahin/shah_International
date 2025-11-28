@@ -4,6 +4,8 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Subsidiary from "../Pages/Subsidiary";
+import Gallery from "../Pages/Gallary";
+import Certifications from "../Pages/Certifications";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
         {
           path:"/subsidiaries",
           element:<Subsidiary/>
+        },
+        {
+          path:"/gallery",
+          element:<Gallery/>
+        },
+        {
+          path:"/certifications",
+          element:<Certifications/>
         },
     ]
   },

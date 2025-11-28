@@ -21,13 +21,6 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3">
           <img src="logo.png" alt="logo" className="w-80"/>
-            {/* <div className="w-12 h-12 bg-gradient-to-br from-[#2d3190] to-[#4a4fb8] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">SI</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-[#2d3190]">Shah International</h1>
-              <p className="text-xs text-gray-600">Manpower Solutions</p>
-            </div> */}
           </Link>
 
           {/* Desktop Menu */}
