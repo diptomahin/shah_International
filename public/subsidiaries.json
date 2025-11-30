@@ -1,0 +1,162 @@
+[
+  {
+    "_id": "679fd2018f1bd001a1000001",
+    "country": "Bangladesh",
+    "slug": "shah-international-agency",
+    "name": "Shah International Agency",
+    "description": "Licensed recruitment agency for both women and men for placements to Mauritius.",
+    "services": [
+      "Male & Female Recruitment",
+      "Mauritius Placements",
+      "Candidate Screening",
+      "Visa Assistance"
+    ],
+    "established": "2010",
+    "employees": "500+",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/1/license-mauritius.jpg",
+      "https://yourcdn.com/certs/1/recruitment-cert.jpg"
+    ],
+    "phone": "+880-1XXXXXXXXX",
+    "email": "info@shah-international.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000002",
+    "country": "Bangladesh",
+    "slug": "afran-khan-international",
+    "name": "Afran Khan International",
+    "description": "Recruitment specialist focusing on placements for men to the Middle East and Mauritius.",
+    "services": [
+      "Male Workforce Recruitment",
+      "Middle East Placements",
+      "Mauritius Placements",
+      "Pre-departure Briefing"
+    ],
+    "established": "2015",
+    "employees": "300+",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/2/middle-east-license.jpg"
+    ],
+    "phone": "+880-1YYYYYYYYY",
+    "email": "contact@afran-khan.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000003",
+    "country": "Bangladesh",
+    "slug": "khan-builders",
+    "name": "Khan Builders",
+    "description": "LGID tender contractor and real-estate developer with in-house skilled labor supply.",
+    "services": [
+      "Tender Contracting",
+      "Real Estate Development",
+      "Civil Works",
+      "Labor Supply"
+    ],
+    "established": "2012",
+    "employees": "750+",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/3/lgid-tender-cert.jpg",
+      "https://yourcdn.com/certs/3/company-reg.jpg"
+    ],
+    "phone": "+880-1ZZZZZZZZZ",
+    "email": "projects@khan-builders.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000004",
+    "country": "Bangladesh",
+    "slug": "shah-international-training-center",
+    "name": "Shah International Training Center",
+    "description": "Trade-focused training center offering construction & technical trade programs.",
+    "services": [
+      "Construction Training",
+      "Masonry",
+      "Seal Fixture",
+      "Carpentry",
+      "Welding",
+      "Electrician",
+      "Plumbing",
+      "Sky Folding"
+    ],
+    "established": "2018",
+    "employees": "100+",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/4/training-center-accred.jpg",
+      "https://yourcdn.com/certs/4/trade-certifications.jpg"
+    ],
+    "phone": "+880-1AAAAAAA",
+    "email": "training@shah-international.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000005",
+    "country": "Mauritius",
+    "slug": "bmk-international",
+    "name": "BMK International",
+    "description": "Textile manufacturing employer in Mauritius (~25 workers).",
+    "services": [
+      "Textile Manufacturing",
+      "Factory Operations",
+      "Quality Control"
+    ],
+    "established": "2016",
+    "employees": "≈ 25",
+    "whatsappPrefill": "Hello, I'm interested in BMK International (textiles). Please share details.",
+    "certifications": [
+      "https://yourcdn.com/certs/5/factory-license.jpg",
+      "https://yourcdn.com/certs/5/safety-cert.jpg"
+    ],
+    "phone": "+230-5XXXXXXX",
+    "email": "bmk@mauritius.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000006",
+    "country": "Mauritius",
+    "slug": "b-newaz-international",
+    "name": "B. Newaz International",
+    "description": "Consultancy firm for immigration and professional certification guidance.",
+    "services": [
+      "Immigration Consultancy",
+      "Medical & Para-medical Placement Guidance",
+      "Technical Activities Advice",
+      "Business Professional Certification Assistance"
+    ],
+    "established": "2017",
+    "employees": "4-5 (consultants)",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/6/immigration-consult-cert.jpg"
+    ],
+    "phone": "+230-4YYYYYYY",
+    "email": "info@bnewaz.example"
+  },
+
+  {
+    "_id": "679fd2018f1bd001a1000007",
+    "country": "Mauritius",
+    "slug": "ss-khan-ltd",
+    "name": "SS Khan Ltd",
+    "description": "Mobile accessories repair, ready-made garments shop and cosmetics retail based in Mauritius.",
+    "services": [
+      "Mobile Accessories Repair",
+      "Ready-made Garments Retail",
+      "Cosmetics Retail",
+      "Store Operations"
+    ],
+    "established": "2019",
+    "employees": "Small team — Rating: 4/5",
+    "whatsapp": null,
+    "certifications": [
+      "https://yourcdn.com/certs/7/shop-license.jpg"
+    ],
+    "phone": "+230-4ZZZZZZZ",
+    "email": "shop@sskhan.example"
+  }
+]

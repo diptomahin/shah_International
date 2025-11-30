@@ -3,9 +3,10 @@ import Root from "../layout/Root";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
-import Subsidiary from "../Pages/Subsidiary";
+import Subsidiary from "../Pages/Subsidiaries";
 import Gallery from "../Pages/Gallary";
 import Certifications from "../Pages/Certifications";
+import SubsidiaryDetails from "../Pages/SubsidiaryDetails";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
           path:"/subsidiaries",
           element:<Subsidiary/>
+        },
+        {
+          path:"/subsidiary/:id",
+          element:<SubsidiaryDetails/>
         },
         {
           path:"/gallery",

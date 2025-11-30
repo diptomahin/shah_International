@@ -11,6 +11,7 @@ import {
   Phone,
   ExternalLink,
 } from "lucide-react";
+import Proprietor from "../Components/About/Proprietor";
 
 // --- Data extracted from the image and current component ---
 const milestones = [
@@ -121,136 +122,7 @@ const About = () => {
         </section>
 
         {/* --- NEW Proprietor Message Section --- */}
-        <section className="mb-10 sm:mb-16 bg-white rounded-2xl p-6 md:p-8 shadow-xl border-t-4 border-[#2d3190]">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#2d3190] mb-6">
-            Proprietor Message & Commitments
-          </h2>
-
-          {/* Image + Message Row */}
-          <div className="flex flex-col md:flex-row items-start gap-6 mb-8">
-            {/* Proprietor Image Container with fixed size */}
-            <div className="w-full md:w-48 flex justify-center md:justify-start">
-              <img
-                src="https://i.ibb.co.com/ycWYP1WB/iamge-1.jpg"
-                alt="Proprietor"
-                className="rounded-xl shadow-md w-48 h-48 object-cover object-top"
-              />
-            </div>
-
-            {/* Message */}
-            <blockquote className="border-l-4 border-gray-200 pl-4 italic text-gray-700 w-full md:w-2/3">
-              "Dear valuable Partners, M/S SHAH INTERNATIONAL AGENCY has
-              experience for
-              <strong>
-                {" "}
-                {proprietorInfo.name.includes("M/S SHAH INTERNATIONAL AGENCY")
-                  ? "20"
-                  : "20+"}{" "}
-                years{" "}
-              </strong>
-              in sending Skilled Bangladeshi Workers abroad as per the company's
-              requirements."
-            </blockquote>
-          </div>
-
-          {/* Licenses, Rules, Facilities Cards */}
-          <div className="grid md:grid-cols-3 gap-4 sm:gap-6 mb-6">
-            <div className="p-4 bg-blue-50 rounded-lg">
-              <h4 className="font-semibold text-[#10206b] flex items-center gap-2 text-base">
-                <Award size={18} /> Licensed Agencies
-              </h4>
-              {proprietorInfo.licenses.map((l, i) => (
-                <p key={i} className="text-sm text-gray-700 mt-1">
-                  <strong>{l.name}</strong>: {l.rl}
-                </p>
-              ))}
-              <p className="text-xs text-gray-600 mt-2">
-                Affiliated with BAIRA Association in Bangladesh and a membership
-                in general list No.
-                <strong>{proprietorInfo.bairaMembership}</strong>.
-              </p>
-            </div>
-
-            <div className="p-4 bg-blue-50 rounded-lg">
-              <h4 className="font-semibold text-[#10206b] flex items-center gap-2 text-base">
-                <CheckCircle size={18} /> Strict Rules & Pre-selection
-              </h4>
-              <p className="text-sm text-gray-700">
-                We supply only <strong>skilled workers</strong> in all sectors.
-                We do a pre-selection of all qualified workers as per the
-                company requirement.
-              </p>
-              <p className="text-sm text-gray-700 mt-2">
-                All candidates
-                <strong>should contact our Agency directly</strong> and they
-                don't have to mingle with anyone or any sub-agent.
-              </p>
-            </div>
-
-            <div className="p-4 bg-blue-50 rounded-lg">
-              <h4 className="font-semibold text-[#10206b] flex items-center gap-2 text-base">
-                <MapPin size={18} /> Facilities & Support
-              </h4>
-              <p className="text-sm text-gray-700">
-                Our agency provides facilities like our{" "}
-                <strong>training center</strong>, <strong>transport</strong>,
-                etc., to ensure the company is already aware of the worker who
-                is going to join their company.
-              </p>
-              <p className="text-sm text-gray-700 mt-2">
-                Shah International Agency will make the best to satisfy your
-                company's needs.
-              </p>
-            </div>
-          </div>
-
-          <h3 className="text-xl font-bold text-[#10206b] mb-3 mt-8">
-            Contact Information (As per Proprietor Message)
-          </h3>
-          <div className="grid md:grid-cols-2 gap-3 text-sm">
-            <div className="flex items-center gap-3">
-              <Phone size={16} className="text-[#2d3190] shrink-0" />
-              <strong>Mobile No & WhatsApp:</strong>
-              <span className="break-all">{proprietorInfo.contact.mobile}</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Phone size={16} className="text-[#2d3190] shrink-0" />
-              <strong>Other Mobile:</strong>
-              <span className="break-all">{proprietorInfo.contact.mobile2}</span>
-            </div>
-            <div className="flex items-center gap-3 col-span-1 md:col-span-2 flex-wrap">
-              <Mail size={16} className="text-[#2d3190] shrink-0" />
-              <strong>E-mail:</strong>
-              <div className="flex flex-col sm:flex-row sm:gap-1 break-all">
-                <a
-                  href={`mailto:${proprietorInfo.contact.email1}`}
-                  className="text-[#2d3190] hover:underline"
-                >
-                  {proprietorInfo.contact.email1}
-                </a>
-                <span>,</span>
-                <a
-                  href={`mailto:${proprietorInfo.contact.email2}`}
-                  className="text-[#2d3190] hover:underline"
-                >
-                  {proprietorInfo.contact.email2}
-                </a>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 col-span-1 md:col-span-2">
-              <ExternalLink size={16} className="text-[#2d3190] shrink-0" />
-              <strong>Website:</strong>
-              <a
-                href={`http://${proprietorInfo.contact.website}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#2d3190] hover:underline break-all"
-              >
-                {proprietorInfo.contact.website}
-              </a>
-            </div>
-          </div>
-        </section>
+        <Proprietor/>
         {/* --- END NEW Proprietor Message Section --- */}
 
         {/* MISSION / VISION CARDS */}

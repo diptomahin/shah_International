@@ -1,0 +1,39 @@
+[
+  {
+    "_id": 1,
+    "name": "Shah International Agency",
+    "yearsExperience": 20,
+    "image": "/shah_proprator.jpg",
+    "licenses": [
+      { "name": "Shah International Agency", "rl": "RL-1404" },
+      { "name": "Afran Khan International", "rl": "RL-1542" }
+    ],
+    "bairaMembership": "12345",
+    "contact": {
+      "mobile": "+8801855532666",
+      "mobile2": "+8801610606087",
+      "email1": "shahalamkha@yahoo.com",
+      "email2": "afrankhangroup@gmail.com",
+      "website": "shah-international.example"
+    }
+  },
+
+  {
+    "_id": 2,
+    "name": "Afran Khan International",
+    "yearsExperience": 20,
+    "image": "/afran-propriator.jpg",
+    "licenses": [
+      { "name": "Afran Khan International", "rl": "RL-1542" },
+      { "name": "Shah International Agency", "rl": "RL-1404" }
+    ],
+    "bairaMembership": "67890",
+    "contact": {
+      "mobile": "+8801855532666",
+      "mobile2": "+8801610606087",
+      "email1": "afrankhangroup@gmail.com",
+      "email2": "shahalamkha@yahoo.com",
+      "website": "afran-khan.example"
+    }
+  }
+]
