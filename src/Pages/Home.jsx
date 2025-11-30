@@ -1,6 +1,7 @@
 import { Award, ChevronRight, Globe, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router";
 import HomeSubsidiaries from "../Components/Home/HomeSubsidiaries";
+import HomePageClientsPreview from "../Components/Home/HomePageClientsPreview";
 
 // Home Page
 const Home = () => {
@@ -168,6 +169,8 @@ const teamMembers = [
           </div>
         </div>
       </section>
+      {/* Additional sections can be added here */}
+      <HomePageClientsPreview/>
     </div>
   );
 };

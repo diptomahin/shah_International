@@ -6,18 +6,18 @@ const Proprietor = () => {
   const [loading, setLoading] = useState(true);
 
   // Fetch proprietor data
-  useEffect(() => {
-    fetch("/proprietor.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setProprietorInfo(data["1"]); // 🔥 Load key "1"
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Error loading proprietor.json", err);
-        setLoading(false);
-      });
-  }, []);
+ useEffect(() => {
+  fetch("/proprietors.json")
+    .then((res) => res.json())
+    .then((data) => {
+      setProprietorInfo(data[0]); // SHOW FIRST OWNER
+      setLoading(false);
+    })
+    .catch((err) => {
+      console.error("Error loading proprietor.json", err);
+      setLoading(false);
+    });
+}, []);
 
   if (loading) {
     return <div className="text-center py-10 text-gray-500">Loading...</div>;

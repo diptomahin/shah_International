@@ -7,6 +7,7 @@ import Subsidiary from "../Pages/Subsidiaries";
 import Gallery from "../Pages/Gallary";
 import Certifications from "../Pages/Certifications";
 import SubsidiaryDetails from "../Pages/SubsidiaryDetails";
+import ClientsFullPage from "../Pages/ClientsFullPage";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         {
           path:"/certifications",
           element:<Certifications/>
+        },
+        {
+          path:"/clients",
+          element:<ClientsFullPage/>
         },
     ]
   },

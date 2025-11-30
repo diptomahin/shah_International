@@ -1,0 +1,64 @@
+[
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000101" },
+    "label": "Shah International Agency Tread License",
+    "image": "/certifications/shah_international_tread.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000102" },
+    "label": "Shah International Agency License",
+    "image": "/certifications/shah_international_licence.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000103" },
+    "label": "Afran Khan International LTD Tread License",
+    "image": "/certifications/afran_khan_tread.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000104" },
+    "label": "Afran Khan International LTD License",
+    "image": "/certifications/afran_khan_licence.jpg"
+  },
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000106" },
+    "label": "B NAWAZ International LTD Business Registration Card",
+    "image": "/certifications/B NAWAZ_page-0001.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000108" },
+    "label": "BAIRA Recrutment License",
+    "image": "/certifications/BIRA_certification.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000109" },
+    "label": "BML International Ltd Business Registration Card",
+    "image": "/certifications/BMK_page-0001.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000110" },
+    "label": "SHAH INTERNATIONAL TRAINIG CENTER Tread License",
+    "image": "/certifications/SHAH INTERNATIONAL TRAINIG CENTER.jpg"
+  },
+
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000105" },
+    "label": "ATAB Certificate",
+    "image": "/certifications/ATAB_Certification.jpg"
+  },
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000107" },
+    "label": "BAIRA Membership Certifiacate",
+    "image": "/certifications/BAIRA Membership Certifiace.jpg"
+  },
+  {
+    "_id": { "$oid": "679fe0018f1bd001a1000111" },
+    "label": "SS KHAN LTD Business Registration Card",
+    "image": "/certifications/SS KHAN LTD.jpg"
+  }
+]

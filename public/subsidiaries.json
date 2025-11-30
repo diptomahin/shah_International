@@ -15,8 +15,8 @@
     "employees": "500+",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/1/license-mauritius.jpg",
-      "https://yourcdn.com/certs/1/recruitment-cert.jpg"
+      "/certifications/shah_international_licence.jpg",
+      "/certifications/shah_international_tread.jpg"
     ],
     "phone": "+880-1XXXXXXXXX",
     "email": "info@shah-international.example"
@@ -38,7 +38,8 @@
     "employees": "300+",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/2/middle-east-license.jpg"
+      "/certifications/afran_khan_licence.jpg",
+      "/certifications/afran_khan_tread.jpg"
     ],
     "phone": "+880-1YYYYYYYYY",
     "email": "contact@afran-khan.example"

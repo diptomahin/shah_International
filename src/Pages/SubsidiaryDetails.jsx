@@ -89,13 +89,13 @@ const SubsidiaryDetails = () => {
         <h3 className="text-2xl font-semibold text-[#2d3190] mt-10">
           Certifications
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 mt-4">
           {subsidiary.certifications?.map((url, idx) => (
             <img
               key={idx}
               src={url}
               alt="Certification"
-              className="rounded shadow object-cover h-32 w-full"
+              className="rounded shadow object-cover  w-full"
             />
           ))}
         </div>

@@ -1,0 +1,48 @@
+[
+  { "_id": { "$oid": "67a000001" }, "name": "RT Knits Ltd", "category": "garments" },
+  { "_id": { "$oid": "67a000002" }, "name": "Denim De L’Île Limited", "category": "garments" },
+  { "_id": { "$oid": "67a000003" }, "name": "Star Knitwear Group Ltd", "category": "garments" },
+  { "_id": { "$oid": "67a000004" }, "name": "Beachwear Export Limited", "category": "garments" },
+  { "_id": { "$oid": "67a000005" }, "name": "Tamak Textile Ltd", "category": "garments" },
+  { "_id": { "$oid": "67a000006" }, "name": "Palmar Ltd", "category": "garments" },
+  { "_id": { "$oid": "67a000007" }, "name": "Real Garments", "category": "garments" },
+  { "_id": { "$oid": "67a000008" }, "name": "B.M.K International Ltd", "category": "garments" },
+
+  { "_id": { "$oid": "67a000009" }, "name": "Gamma Construction Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000010" }, "name": "DLB Construction & Co Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000011" }, "name": "China Jiangsu International", "category": "construction" },
+  { "_id": { "$oid": "67a000012" }, "name": "Super Construction Co Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000013" }, "name": "Rehm-Grinaker Construction Company Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000014" }, "name": "Beijing Zhuzong Group Co Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000015" }, "name": "Ramasawmmy & Ramasawmmy & Co Ltd", "category": "construction" },
+  { "_id": { "$oid": "67a000016" }, "name": "Ligne Doran Contracting Ltd", "category": "construction" },
+
+  { "_id": { "$oid": "67a000017" }, "name": "Fast Food Co Ltd", "category": "food" },
+  { "_id": { "$oid": "67a000018" }, "name": "Pains Paysans Patisseries Et Boulangerie Ltee", "category": "food" },
+  { "_id": { "$oid": "67a000019" }, "name": "Dehli Mithai Ltd", "category": "food" },
+  { "_id": { "$oid": "67a000020" }, "name": "Boulangerie Et Patisserie Lumiere Ltee", "category": "food" },
+  { "_id": { "$oid": "67a000021" }, "name": "Seven Sky Bakery", "category": "food" },
+  { "_id": { "$oid": "67a000022" }, "name": "Millac Foods Ltd", "category": "food" },
+  { "_id": { "$oid": "67a000023" }, "name": "Parboteeah Cuisine Co. Ltd", "category": "restaurant" },
+  { "_id": { "$oid": "67a000024" }, "name": "Restaurant Ram Coolen Limited", "category": "restaurant" },
+  { "_id": { "$oid": "67a000025" }, "name": "Wine Deli Ltd", "category": "restaurant" },
+
+  { "_id": { "$oid": "67a000026" }, "name": "SSS Furniture Co. Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000027" }, "name": "J.S. Furniture Co. Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000028" }, "name": "Ustad Furniture Co. Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000029" }, "name": "Pro Manufacturing Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000030" }, "name": "Genuine Leather Furniture Co. Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000031" }, "name": "Shafa Furniture Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000032" }, "name": "Meublelite Furniture Co. Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000033" }, "name": "C.C Meubles Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000034" }, "name": "Intelligently Made Furniture Ltd", "category": "furniture" },
+  { "_id": { "$oid": "67a000035" }, "name": "Best Quality Sofa Ltd", "category": "furniture" },
+
+  { "_id": { "$oid": "67a000036" }, "name": "G.S. Steel Co Ltd", "category": "engineering" },
+  { "_id": { "$oid": "67a000037" }, "name": "J.K Aluminium Ltd", "category": "engineering" },
+  { "_id": { "$oid": "67a000038" }, "name": "G.H Engineering Co. Ltd", "category": "engineering" },
+  { "_id": { "$oid": "67a000039" }, "name": "D & J Mechanics Engineering Workshop Co. Ltd", "category": "engineering" },
+
+  { "_id": { "$oid": "67a000040" }, "name": "Polyclinique De L’Ouest Ltee", "category": "medical" },
+  { "_id": { "$oid": "67a000041" }, "name": "Aanari Hotel", "category": "hotel" }
+]
