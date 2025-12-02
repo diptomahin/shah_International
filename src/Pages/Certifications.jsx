@@ -77,7 +77,7 @@ const Certifications = () => {
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-bold mb-2">15+</h3>
+              <h3 className="text-2xl font-bold mb-2">20+</h3>
               <p className="text-gray-200">Years Certified</p>
             </div>
           </div>

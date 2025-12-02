@@ -3,8 +3,8 @@
     "_id": "679fd2018f1bd001a1000001",
     "country": "Bangladesh",
     "slug": "shah-international-agency",
-    "name": "Shah International Agency",
-    "description": "Licensed recruitment agency for both women and men for placements to Mauritius.",
+    "name": "SHAH INTERNATIONALl AGENCY",
+    "description": "Shah International Agency is a licensed and government-approved recruitment organization in Bangladesh, specializing in the ethical deployment of both male and female workers to Mauritius. Since its establishment, the agency has built a strong reputation for maintaining transparency, ensuring proper candidate screening, and providing end-to-end support throughout the recruitment journey. With years of experience in overseas manpower management, the company focuses on connecting skilled, semi-skilled, and unskilled Bangladeshi talent with reputable employers while ensuring compliance with international labor standards.",
     "services": [
       "Male & Female Recruitment",
       "Mauritius Placements",
@@ -16,9 +16,11 @@
     "whatsapp": null,
     "certifications": [
       "/certifications/shah_international_licence.jpg",
-      "/certifications/shah_international_tread.jpg"
+      "/certifications/shah_international_tread.jpg",
+      "/certifications/BIRA_certification.jpg",
+      "/certifications/BAIRA Membership Certifiace.jpg"
     ],
-    "phone": "+880-1XXXXXXXXX",
+    "phone": "+8801610606087",
     "email": "info@shah-international.example"
   },
 
@@ -26,8 +28,8 @@
     "_id": "679fd2018f1bd001a1000002",
     "country": "Bangladesh",
     "slug": "afran-khan-international",
-    "name": "Afran Khan International",
-    "description": "Recruitment specialist focusing on placements for men to the Middle East and Mauritius.",
+    "name": "AFRAN KHAN INTERNATIONAL LTD.",
+    "description": "AFRAN KHAN INTERNATIONAL LTD. is a specialized recruitment firm providing manpower solutions for employers in both the Middle East and Mauritius. The agency focuses on sourcing reliable, trained, and professionally screened male workers across various trades. Over the years, the company has established solid partnerships with global employers and has built an efficient recruitment system that includes counseling, documentation support, and pre-departure orientation. Their objective is to bridge the gap between international labor demand and skilled Bangladeshi professionals seeking overseas opportunities.",
     "services": [
       "Male Workforce Recruitment",
       "Middle East Placements",
@@ -39,9 +41,10 @@
     "whatsapp": null,
     "certifications": [
       "/certifications/afran_khan_licence.jpg",
-      "/certifications/afran_khan_tread.jpg"
+      "/certifications/afran_khan_tread.jpg",
+      "/certifications/ATAB_Certification.jpg"
     ],
-    "phone": "+880-1YYYYYYYYY",
+    "phone": "+8801610606087",
     "email": "contact@afran-khan.example"
   },
 
@@ -49,8 +52,8 @@
     "_id": "679fd2018f1bd001a1000003",
     "country": "Bangladesh",
     "slug": "khan-builders",
-    "name": "Khan Builders",
-    "description": "LGID tender contractor and real-estate developer with in-house skilled labor supply.",
+    "name": "KHAN BUILDERS",
+    "description": "Khan Builders is a leading contractor engaged in LGED tender work, real-estate development, and large-scale civil construction. Backed by a strong team of engineers and skilled manpower, the company executes infrastructure projects with a focus on quality, safety, and timely delivery. Beyond construction services, Khan Builders also supplies experienced labor teams across multiple trades, enabling seamless project execution for private and government sectors. Their combined expertise in contracting and real-estate development makes them a versatile player in Bangladesh’s construction industry.",
     "services": [
       "Tender Contracting",
       "Real Estate Development",
@@ -61,10 +64,11 @@
     "employees": "750+",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/3/lgid-tender-cert.jpg",
-      "https://yourcdn.com/certs/3/company-reg.jpg"
+      "/certifications/SS KHAN LTD.jpg",
+      "/certifications/BMK_page-0001.jpg",
+      "/certifications/BMK_page-0002.jpg"
     ],
-    "phone": "+880-1ZZZZZZZZZ",
+    "phone": "+8801610606087",
     "email": "projects@khan-builders.example"
   },
 
@@ -72,8 +76,8 @@
     "_id": "679fd2018f1bd001a1000004",
     "country": "Bangladesh",
     "slug": "shah-international-training-center",
-    "name": "Shah International Training Center",
-    "description": "Trade-focused training center offering construction & technical trade programs.",
+    "name": "SHAH INTERNATIONAL TRAINING CENTER",
+    "description": "Shah International Training Center is a trade-focused skills development institute dedicated to preparing candidates for the construction, technical, and industrial sectors. The center provides practical, hands-on training in masonry, seal fixture, carpentry, welding, electrical work, plumbing, and sky-folding, ensuring trainees acquire real-world competence that aligns with employer expectations. With certified instructors and standardized training modules, the institution plays a vital role in producing job-ready workers for both local and overseas employment markets.",
     "services": [
       "Construction Training",
       "Masonry",
@@ -88,10 +92,9 @@
     "employees": "100+",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/4/training-center-accred.jpg",
-      "https://yourcdn.com/certs/4/trade-certifications.jpg"
+      "/certifications/SHAH INTERNATIONAL TRAINIG CENTER.jpg"
     ],
-    "phone": "+880-1AAAAAAA",
+    "phone": "+8801610606087",
     "email": "training@shah-international.example"
   },
 
@@ -99,8 +102,8 @@
     "_id": "679fd2018f1bd001a1000005",
     "country": "Mauritius",
     "slug": "bmk-international",
-    "name": "BMK International",
-    "description": "Textile manufacturing employer in Mauritius (~25 workers).",
+    "name": "BMK INTERNATIONAL LTD.",
+    "description": "BMK INTERNATIONAL LTD. is a textile manufacturing company in Mauritius employing a dedicated team of approximately 25 workers. The company specializes in garment production, factory operations, and quality control, serving both local and export markets. With a focus on precision, timely delivery, and consistent product quality, BMK International maintains a streamlined manufacturing process supported by trained textile workers. The organization emphasizes ethical labor practices and aims to create stable employment opportunities within the textile sector of Mauritius.",
     "services": [
       "Textile Manufacturing",
       "Factory Operations",
@@ -110,10 +113,10 @@
     "employees": "≈ 25",
     "whatsappPrefill": "Hello, I'm interested in BMK International (textiles). Please share details.",
     "certifications": [
-      "https://yourcdn.com/certs/5/factory-license.jpg",
-      "https://yourcdn.com/certs/5/safety-cert.jpg"
+      "/certifications/BMK_page-0001.jpg",
+      "/certifications/BMK_page-0002.jpg"
     ],
-    "phone": "+230-5XXXXXXX",
+    "phone": "+23057031830",
     "email": "bmk@mauritius.example"
   },
 
@@ -121,8 +124,8 @@
     "_id": "679fd2018f1bd001a1000006",
     "country": "Mauritius",
     "slug": "b-newaz-international",
-    "name": "B. Newaz International",
-    "description": "Consultancy firm for immigration and professional certification guidance.",
+    "name": "B. NEWAZ INTERNATIONAL LTD",
+    "description": "B. NEWAZ INTERNATIONAL LTD is a consultancy firm offering guidance in immigration procedures, medical and para-medical career pathways, technical advice, and professional certification processes. The firm assists individuals and businesses in navigating complex regulatory requirements, ensuring that documentation and application steps are completed accurately and efficiently. With a small but highly knowledgeable team of consultants, the company delivers personalized support tailored to the needs of clients seeking career, residency, or business opportunities in Mauritius.",
     "services": [
       "Immigration Consultancy",
       "Medical & Para-medical Placement Guidance",
@@ -133,9 +136,10 @@
     "employees": "4-5 (consultants)",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/6/immigration-consult-cert.jpg"
+      "/certifications/B NAWAZ_page-0001.jpg",
+      "/certifications/B NAWAZ_page-0002.jpg"
     ],
-    "phone": "+230-4YYYYYYY",
+    "phone": "+23057031830",
     "email": "info@bnewaz.example"
   },
 
@@ -143,8 +147,8 @@
     "_id": "679fd2018f1bd001a1000007",
     "country": "Mauritius",
     "slug": "ss-khan-ltd",
-    "name": "SS Khan Ltd",
-    "description": "Mobile accessories repair, ready-made garments shop and cosmetics retail based in Mauritius.",
+    "name": "SS KHAN Ltd",
+    "description": "SS Khan Ltd is a multi-service retail and repair business in Mauritius, focused on mobile accessories repair, ready-made garments sales, and cosmetics retail. The company caters to local customers by offering affordable, fast, and reliable repair services alongside a wide selection of fashion and beauty products. Known for its customer-friendly service and growing retail presence, SS Khan Ltd continues to expand its offerings while maintaining a strong reputation for convenience and quality.",
     "services": [
       "Mobile Accessories Repair",
       "Ready-made Garments Retail",
@@ -155,9 +159,9 @@
     "employees": "Small team — Rating: 4/5",
     "whatsapp": null,
     "certifications": [
-      "https://yourcdn.com/certs/7/shop-license.jpg"
+      "/certifications/SS KHAN LTD.jpg"
     ],
-    "phone": "+230-4ZZZZZZZ",
+    "phone": "+23057031830",
     "email": "shop@sskhan.example"
   }
 ]

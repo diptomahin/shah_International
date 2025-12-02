@@ -12,6 +12,9 @@ import {
   ExternalLink,
 } from "lucide-react";
 import Proprietor from "../Components/About/Proprietor";
+import { Link } from "react-router";
+import CountriesSection from "../Components/Sections/CountriesSection";
+import CTASection from "../Components/Sections/CTASection";
 
 // --- Data extracted from the image and current component ---
 const milestones = [
@@ -45,9 +48,9 @@ const coreValues = [
 ];
 
 const stats = [
-  { label: "Experience (Years)", value: "20+" },
-  { label: "Placements", value: "10k+" },
-  { label: "Countries", value: "2" },
+  { label: "Experience (Years)", value: "21+" },
+  { label: "Placements", value: "18k+" },
+  { label: "Countries", value: "4" },
   { label: "Subsidiaries", value: "7" },
 ];
 
@@ -73,47 +76,52 @@ const About = () => {
     <div className="py-10 sm:py-16 px-4 bg-[linear-gradient(180deg,#eaf1ff,white)] min-h-screen">
       <div className="max-w-6xl mx-auto">
         {/* HERO / ABOVE THE FOLD */}
-        <section className="relative rounded-2xl overflow-hidden mb-10 sm:mb-16">
-          <div
-            className="absolute inset-0 bg-[url('/assets/blue-pattern.png')] bg-cover bg-center opacity-20"
-            aria-hidden="true"
-          />
-          <div className="relative z-10 p-6 md:p-12 bg-white/60 backdrop-blur-sm rounded-2xl">
-            <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
-              <div className="flex-1">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#10206b] mb-4">
+        <section
+          className="relative overflow-hidden rounded-2xl mb-10 sm:mb-16 bg-fixed bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/employment1.webp')", // parallax image
+          }}
+        >
+          {/* Soft overlay for readability */}
+          <div className="absolute inset-0 bg-gradient-to-br from-white/80 via-white/70 to-white/60 backdrop-blur-sm"></div>
+
+          <div className="relative z-10 max-w-6xl mx-auto px-6 py-16 sm:py-20 md:py-24">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* LEFT CONTENT */}
+              <div>
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#10206b] mb-6 leading-tight">
                   About Us
                 </h1>
-                <p className="text-base sm:text-lg text-gray-700 max-w-2xl">
+
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-xl">
                   Shah International Agency connects skilled Bangladeshi workers
                   with reputable employers overseas. We combine ethical
                   recruitment, targeted training and a wide international
                   network to create reliable career pathways.
                 </p>
 
-                <div className="mt-6 flex gap-4">
-                  <button className="px-5 py-2 sm:px-6 sm:py-2 rounded-full bg-[#2d3190] text-white font-semibold text-sm sm:text-base shadow hover:scale-[1.01] transition">
-                    Learn more
-                  </button>
-                  <button className="px-5 py-2 sm:px-6 sm:py-2 rounded-full border border-[#2d3190] text-[#2d3190] bg-white font-semibold text-sm sm:text-base">
+                <div className="mt-8 flex flex-wrap gap-4">
+                  <Link to={"/contact"}>
+                  <button className="px-6 py-2.5 rounded-full border border-[#2d3190] text-[#2d3190] bg-white font-semibold hover:bg-[#2d3190]/10 transition">
                     Contact Us
                   </button>
+                  </Link>
                 </div>
               </div>
 
-              {/* Stylized outline word inspired by the vision page */}
-              <div className="w-full md:w-1/3 text-center mt-6 md:mt-0">
+              {/* RIGHT OUTLINE TYPOGRAPHY */}
+              <div className="text-center md:text-right">
                 <div
-                  className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-none"
+                  className="text-5xl sm:text-6xl md:text-7xl font-extrabold uppercase leading-none"
                   style={{
-                    WebkitTextStroke: "1px sm:2px rgba(45,49,144,0.9)",
+                    WebkitTextStroke: "2px rgba(45,49,144,0.9)",
                     color: "transparent",
-                    textTransform: "uppercase",
                   }}
                 >
                   Agency
                 </div>
-                <div className="mt-2 text-base sm:text-xl text-gray-600">
+
+                <div className="mt-3 text-lg sm:text-xl text-gray-600 tracking-wide">
                   Vision • Mission • Impact
                 </div>
               </div>
@@ -122,7 +130,7 @@ const About = () => {
         </section>
 
         {/* --- NEW Proprietor Message Section --- */}
-        <Proprietor/>
+        <Proprietor />
         {/* --- END NEW Proprietor Message Section --- */}
 
         {/* MISSION / VISION CARDS */}
@@ -151,21 +159,27 @@ const About = () => {
                 <Award size={28} className="text-[#2d3190] shrink-0" />
                 <div>
                   <div className="text-sm text-gray-500">Licensed</div>
-                  <div className="font-semibold text-base">Certified Agency</div>
+                  <div className="font-semibold text-base">
+                    Certified Agency
+                  </div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Users size={28} className="text-[#2d3190] shrink-0" />
                 <div>
                   <div className="text-sm text-gray-500">Team</div>
-                  <div className="font-semibold text-base">Experienced & Local</div>
+                  <div className="font-semibold text-base">
+                    Experienced & Local
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="bg-linear-to-br from-[#2d3190] to-[#4a4fb8] text-white rounded-2xl p-6 md:p-8 shadow w-full">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4">Mission & Vision</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4">
+              Mission & Vision
+            </h3>
 
             <div className="mb-4">
               <h4 className="font-semibold text-lg">Mission</h4>
@@ -197,7 +211,9 @@ const About = () => {
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/30 flex items-center justify-center mb-3">
                   <Award size={20} />
                 </div>
-                <h4 className="font-semibold text-base">Licensed & Certified</h4>
+                <h4 className="font-semibold text-base">
+                  Licensed & Certified
+                </h4>
                 <p className="text-sm text-gray-600">
                   Ethical recruitment and full compliance.
                 </p>
@@ -235,7 +251,9 @@ const About = () => {
                   className="flex items-center justify-between"
                 >
                   <div>
-                    <div className="text-xl sm:text-2xl font-bold">{s.value}</div>
+                    <div className="text-xl sm:text-2xl font-bold">
+                      {s.value}
+                    </div>
                     <div className="text-xs text-gray-500">{s.label}</div>
                   </div>
                   <CheckCircle size={20} className="text-green-500 shrink-0" />
@@ -244,7 +262,7 @@ const About = () => {
             </div>
           </aside>
         </section>
-
+        <CountriesSection/>
         {/* JOURNEY TIMELINE (UPDATED) */}
         <section className="mb-10 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#2d3190] mb-8 text-center">
@@ -252,7 +270,10 @@ const About = () => {
           </h2>
           <div className="space-y-6">
             {milestones.map((m, idx) => (
-              <div key={idx} className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+              <div
+                key={idx}
+                className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6"
+              >
                 <div className="w-full sm:w-24 shrink-0">
                   <span className="inline-block bg-[#2d3190] text-white px-4 py-2 rounded-full font-bold text-sm sm:text-base">
                     {m.year}
@@ -278,7 +299,10 @@ const About = () => {
                   key={i}
                   className="flex items-start gap-3 p-4 rounded-lg bg-gray-50"
                 >
-                  <CheckCircle size={20} className="mt-1 text-[#2d3190] shrink-0" />
+                  <CheckCircle
+                    size={20}
+                    className="mt-1 text-[#2d3190] shrink-0"
+                  />
                   <div>
                     <div className="font-semibold text-base">{v}</div>
                     <div className="text-sm text-gray-600">
@@ -317,31 +341,7 @@ const About = () => {
         </section>
 
         {/* CTA FOOTER */}
-        <section className="bg-[#10206b] text-white rounded-2xl p-6 md:p-8 shadow-md mb-10 sm:mb-5">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="text-center md:text-left">
-              <h3 className="text-xl sm:text-2xl font-bold">Ready to collaborate?</h3>
-              <p className="text-sm text-white/90">
-                Partner with Shah International Agency for ethical, reliable
-                manpower solutions.
-              </p>
-            </div>
-            <div className="flex gap-3 mt-4 md:mt-0">
-              <a
-                href="/contact"
-                className="px-5 py-2 rounded-full bg-white text-[#10206b] font-semibold text-sm sm:text-base whitespace-nowrap"
-              >
-                Contact Sales
-              </a>
-              <a
-                href="/apply"
-                className="px-5 py-2 rounded-full border border-white text-white font-semibold text-sm sm:text-base whitespace-nowrap"
-              >
-                Apply for Jobs
-              </a>
-            </div>
-          </div>
-        </section>
+       <CTASection/>
       </div>
     </div>
   );

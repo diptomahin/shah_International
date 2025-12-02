@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Hero from "../Components/Sections/Hero";
 
 const Subsidiaries = () => {
   const [subsidiaries, setSubsidiaries] = useState({
@@ -23,24 +24,15 @@ const Subsidiaries = () => {
   }, []);
 
   return (
-    <div className="py-16 px-4">
+    <div className="">
       <div className="max-w-7xl mx-auto">
-
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#2d3190] mb-4">
-            Our Subsidiaries
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A network of specialized companies delivering excellence across industries
-          </p>
-        </div>
-
+        <Hero imageUrl={"/images/employment2.webp"} title={"Our Subsidiaries"} subtitle={"A network of specialized companies delivering excellence across industries"}/>
         {/* Bangladesh Section */}
-        <h2 className="text-3xl font-bold text-[#2d3190] mb-8">
+        <h2 className="text-3xl font-bold text-[#2d3190] mb-4 mt-8 mx-4">
           Bangladesh Operations
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-16 mx-4">
           {subsidiaries.bangladesh.map(sub => (
             <div
               key={sub._id}
@@ -74,11 +66,11 @@ const Subsidiaries = () => {
         </div>
 
         {/* Mauritius Section */}
-        <h2 className="text-3xl font-bold text-[#2d3190] mb-8">
+        <h2 className="text-3xl font-bold text-[#2d3190] mb-4 mx-4">
           Mauritius Operations
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mx-4">
           {subsidiaries.mauritius.map(sub => (
             <div
               key={sub._id}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Applicant Gathering",
+    "category": "Interviews",
+    "imageUrl": "gallery/applicant1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Interview Session",
+    "category": "Interviews",
+    "imageUrl": "gallery/applicant2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Skill Development Training",
+    "category": "Training",
+    "imageUrl": "/gallery/trainning.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Skill Development Training",
+    "category": "Training",
+    "imageUrl": "/gallery/trainning2.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Skill Development Training",
+    "category": "Training",
+    "imageUrl": "/gallery/trainning3.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Skill Development Training",
+    "category": "Training",
+    "imageUrl": "/gallery/trainning4.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Meeting with Foreign Delegates",
+    "category": "Events",
+    "imageUrl": "/gallery/meeting.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Skill Assessment",
+    "category": "Interview",
+    "imageUrl": "/gallery/Interview.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Skill Assessment",
+    "category": "Interview",
+    "imageUrl": "/gallery/Interview2.jpg"
+  }
+]
