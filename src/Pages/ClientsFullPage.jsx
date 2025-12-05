@@ -17,7 +17,7 @@ const ClientsFullPage = () => {
   const [filter, setFilter] = useState("all");
 
   useEffect(() => {
-    fetch("/clients.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/clients`)
       .then((res) => res.json())
       .then((data) => setClients(data))
       .catch((err) => console.error("Error loading clients:", err));

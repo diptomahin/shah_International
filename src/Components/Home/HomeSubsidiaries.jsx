@@ -7,7 +7,7 @@ const HomeSubsidiaries = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/subsidiaries.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/subsidiaries`)
       .then(res => res.json())
       .then(data => {
         // data = ARRAY → convert to grouped object

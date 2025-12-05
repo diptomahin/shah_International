@@ -7,7 +7,7 @@ const Proprietor = () => {
 
   // Fetch proprietor data
  useEffect(() => {
-  fetch("/proprietors.json")
+  fetch(`${import.meta.env.VITE_API_URL}/api/proprietor`)
     .then((res) => res.json())
     .then((data) => {
       setProprietorInfo(data[0]); // SHOW FIRST OWNER

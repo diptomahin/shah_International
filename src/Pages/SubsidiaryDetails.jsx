@@ -17,7 +17,7 @@ const SubsidiaryDetails = () => {
 
   useEffect(() => {
     // Load subsidiaries
-    fetch("/subsidiaries.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/subsidiaries`)
       .then((res) => res.json())
       .then((data) => {
         // IDs are STRINGS — must compare as strings
@@ -27,12 +27,12 @@ const SubsidiaryDetails = () => {
       });
 
     // Load proprietors
-    fetch("/proprietors.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/proprietor`)
       .then((res) => res.json())
       .then((data) => {
         const AFRAN_SUB_ID = "679fd2018f1bd001a1000002";
 
-        if (id === AFRAN_SUB_ID) {
+        if (id === AFRAN_SUB_ID || id === "679fd2018f1bd001a1000003") {
           // Show proprietor 2
           setProprietorInfo(data[1]);
         } else {

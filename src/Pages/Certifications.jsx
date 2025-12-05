@@ -5,7 +5,7 @@ const Certifications = () => {
   const [certifications, setCertifications] = useState([]);
 
   useEffect(() => {
-    fetch("/certifications.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/certifications`)
       .then((res) => res.json())
       .then((data) => setCertifications(data))
       .catch((err) => console.error("Error loading certifications:", err));

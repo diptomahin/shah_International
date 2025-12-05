@@ -5,10 +5,11 @@ import HomePageClientsPreview from "../Components/Home/HomePageClientsPreview";
 import StatsSection from "../Components/Sections/StatsSection";
 import CountriesSection from "../Components/Sections/CountriesSection";
 import CTASection from "../Components/Sections/CTASection";
+import HomeSlider from "../Components/Home/HomeSlider";
+import VideoSection from "../Components/Sections/VideoSection";
 
 // Home Page
 const Home = () => {
-
   return (
     <div>
       {/* Hero Section */}
@@ -75,7 +76,7 @@ const Home = () => {
       </section>
 
       {/* Statistics */}
-      <StatsSection/>
+      <StatsSection />
 
       {/* Subsidiaries Section */}
       <HomeSubsidiaries />
@@ -148,9 +149,13 @@ const Home = () => {
         </div>
       </section>
       {/* Additional sections can be added here */}
-      <CountriesSection/>
+      <HomeSlider />
+      <CountriesSection />
       <HomePageClientsPreview />
-      <CTASection/>
+      <div className="w-11/12 mx-auto mb-5">
+        <VideoSection />
+      </div>
+      <CTASection />
     </div>
   );
 };

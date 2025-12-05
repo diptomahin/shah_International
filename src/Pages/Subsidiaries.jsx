@@ -9,7 +9,7 @@ const Subsidiaries = () => {
   });
 
   useEffect(() => {
-    fetch("/subsidiaries.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/subsidiaries`)
       .then(res => res.json())
       .then(data => {
         // data is ARRAY → convert it into grouped structure

@@ -5,7 +5,7 @@ const HomePageClientsPreview = () => {
   const [clients, setClients] = useState([]);
 
   useEffect(() => {
-    fetch("/clients.json")
+    fetch(`${import.meta.env.VITE_API_URL}/api/clients`)
       .then((res) => res.json())
       .then((data) => setClients(data))
       .catch((err) => console.error("Error loading clients:", err));
@@ -23,9 +23,9 @@ const HomePageClientsPreview = () => {
   }, {});
 
   return (
-    <div className="py-12 bg-gray-50">
+    <div className="py-12 bg-gray-50 border-x-2 border-y-2 border-[#2d3190] mx-auto">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-[#2d3190] mb-10">
+        <h2 className="text-4xl text-center font-bold text-[#2d3190] mb-10">
           Our Trusted Clients
         </h2>
 
